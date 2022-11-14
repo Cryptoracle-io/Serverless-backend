@@ -7,7 +7,7 @@ const corsHeaders = {
   'Access-Control-Allow-Methods': 'GET,HEAD,POST,OPTIONS',
   'Access-Control-Allow-Headers': '*',
 };
-const API_URL = 'https://api-v2-mainnet.paras.id'
+const API_URL = PARAS_API_ENV
 // The URL for the remote third party API you want to fetch from
 // but does not implement CORS
 // /api/activities/top-users?__limit=30
@@ -39,7 +39,7 @@ async function handleRequest(event) {
   // Construct the cache key from the cache URL
   const cacheKey = path + search;//new Request(cacheUrl.toString(), request);
   const cache = caches.default;
-  let response = await KV_NEARHIGHLIGHTS.get(cacheKey);
+  let response = await KV_DATABASE.get(cacheKey);
 
   
   //console.log(`cache: ${response}`);
