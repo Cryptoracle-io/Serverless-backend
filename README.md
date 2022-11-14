@@ -1,12 +1,21 @@
-# 👷 `worker-template`
+# 👷 `Serverless-backend-worker`
 
-A template for kick starting a Cloudflare worker project.
+A a Cloudflare worker project.
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+
 
 #### Wrangler
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+​​Installing the Workers CLI
+To install wrangler, ensure you have npm installed, preferably using a Node version manager like Volta or nvm. Using a version manager helps avoid permission issues and allows you to easily change Node.js versions. Then run:
+
+`npm install -g wrangler`
+
+or install with yarn:
+
+`yarn global add wrangler`
+
+
 
 ```
 wrangler generate projectname https://github.com/cloudflare/worker-template
