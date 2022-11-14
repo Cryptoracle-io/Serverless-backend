@@ -1,6 +1,6 @@
-# 👷 `Serverless-backend-worker`
+# `Serverless-backend-worker`👷 
 
-A a Cloudflare worker project.
+A Cloudflare worker project.
 
 
 
@@ -15,10 +15,10 @@ or install with yarn:
 
 `yarn global add wrangler`
 
-
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
 Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+
+or also follow the next tutorials:
+
+Workers get started guide [here](https://developers.cloudflare.com/workers/get-started/guide/)
+Build a Serverless API with Cloudflare Workers [here](https://egghead.io/courses/build-a-serverless-api-with-cloudflare-workers-d67ca551)
+Build Data-Driven Applications on the Edge with Workers and Workers KV [here](https://egghead.io/courses/build-data-driven-applications-on-the-edge-with-workers-and-workers-kv-4932f3ea)
